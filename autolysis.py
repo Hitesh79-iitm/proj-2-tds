@@ -186,7 +186,7 @@ def perform_analysis(data):
 def main():
     file_name = sys.argv[1]
     data = read_unknown_csv(file_name)
-    # print(data.head())  # Printing first few rows for confirmation
+    
     # key = os.getenv("AIPROXY_TOKEN")
     key = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjIwMDEyNTZAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.4-4pRpeiJ86fSrrknMv-IPZIerAchT7fdfA2SRv_QUM"
     analysis = perform_analysis(data)
