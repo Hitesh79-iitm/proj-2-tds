@@ -188,7 +188,7 @@ def main():
     data = read_unknown_csv(file_name)
     
     # key = os.getenv("AIPROXY_TOKEN")
-    key = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjIwMDEyNTZAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.4-4pRpeiJ86fSrrknMv-IPZIerAchT7fdfA2SRv_QUM"
+    key = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjIwMDEyNTVAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.7Ihygb9_YTlbW_9t7Kl0Ggt-7h1HUrjuDwM8t90IGB4"
     analysis = perform_analysis(data)
     images = visualize_data(data, file_name)
     create_readme(analysis, key, file_name[:-4])
